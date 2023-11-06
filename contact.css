@@ -18,6 +18,10 @@
   color: var(--color-darkslategray);
 }
 .pratham {
+  display: none;
+}
+.anjana2,
+.pratham {
   position: absolute;
   top: 0;
   left: 0;
@@ -127,8 +131,8 @@
   font-size: var(--font-size-5xl);
   color: var(--color-midnightblue-100);
 }
-.icon,
-.pngtree-instagram-icon-instagr2 {
+.icon2,
+.pngtree-instagram-icon-instagr3 {
   position: absolute;
   top: 64px;
   left: 0;
@@ -137,14 +141,23 @@
   object-fit: cover;
   mix-blend-mode: luminosity;
 }
-.icon {
-  top: 69.7px;
-  left: 126.5px;
+.icon2 {
+  top: 434.7px;
+  left: 534.5px;
   width: 58.8px;
   height: 50.2px;
+  display: none;
 }
-.linkedin-logo-png-1-icon,
-.twitter-logo-vector-png-clipar-icon {
+.mdigithub-icon2 {
+  position: absolute;
+  top: 63px;
+  left: 121px;
+  width: 68px;
+  height: 68px;
+  overflow: hidden;
+}
+.linkedin-logo-png-1-icon2,
+.twitter-logo-vector-png-clipar-icon2 {
   position: absolute;
   top: 64px;
   left: 243.2px;
@@ -153,7 +166,7 @@
   object-fit: cover;
   mix-blend-mode: luminosity;
 }
-.linkedin-logo-png-1-icon {
+.linkedin-logo-png-1-icon2 {
   left: 359.2px;
   width: 264.8px;
 }
@@ -164,12 +177,12 @@
   line-height: 110%;
   font-weight: 800;
 }
-.footer-socials1 {
+.footer-socials3 {
   position: absolute;
   top: 365px;
   left: 408px;
   width: 624px;
-  height: 125px;
+  height: 131px;
   font-size: 36px;
   color: var(--color-turquoise);
 }
@@ -210,7 +223,16 @@
   width: 1440px;
   height: 337px;
 }
+.pratham1 {
+  top: 42px;
+  left: 59px;
+  font-size: var(--font-size-21xl);
+  display: none;
+  -webkit-text-stroke: 1px #dac9c9;
+  color: var(--color-lightgray-100);
+}
 .about3,
+.anjana3,
 .contact6,
 .home3,
 .pratham1,
@@ -219,9 +241,9 @@
   letter-spacing: 0.01em;
   line-height: 110%;
 }
-.pratham1 {
+.anjana3 {
   top: 42px;
-  left: 59px;
+  left: 74px;
   font-size: var(--font-size-21xl);
   -webkit-text-stroke: 1px #dac9c9;
   color: var(--color-lightgray-100);
@@ -256,43 +278,52 @@
   left: 93px;
   width: 111px;
 }
-.icon1,
-.pngtree-instagram-icon-instagr3 {
+.icon3,
+.pngtree-instagram-icon-instagr4 {
   position: absolute;
-  top: 0;
+  top: 3px;
   left: 0;
   width: 68.5px;
   height: 61px;
   object-fit: cover;
   mix-blend-mode: luminosity;
 }
-.icon1 {
-  top: 5.7px;
-  left: 126.5px;
+.icon3 {
+  top: 830.7px;
+  left: 623.5px;
   width: 58.8px;
   height: 50.2px;
+  display: none;
 }
-.linkedin-logo-png-1-icon1,
-.twitter-logo-vector-png-clipar-icon1 {
+.mdigithub-icon3 {
   position: absolute;
   top: 0;
+  left: 122px;
+  width: 68px;
+  height: 68px;
+  overflow: hidden;
+}
+.linkedin-logo-png-1-icon3,
+.twitter-logo-vector-png-clipar-icon3 {
+  position: absolute;
+  top: 3px;
   left: 243.2px;
   width: 68.5px;
   height: 61px;
   object-fit: cover;
   mix-blend-mode: luminosity;
 }
-.linkedin-logo-png-1-icon1 {
+.linkedin-logo-png-1-icon3 {
   left: 359.2px;
   width: 264.8px;
 }
-.footer-socials2,
+.footer-socials4,
 .footer1 {
   position: absolute;
-  top: 138px;
+  top: 135px;
   left: 497px;
   width: 624px;
-  height: 61px;
+  height: 68px;
 }
 .footer1 {
   top: 687px;

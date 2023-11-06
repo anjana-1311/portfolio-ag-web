@@ -11,13 +11,21 @@
   width: 1440px;
   height: 337px;
 }
-.m4 {
+.a8 {
   color: var(--color-gray-200);
 }
-.span6 {
+.span10 {
   color: var(--color-darkslategray);
 }
+.anjana6 {
+  top: 42px;
+  left: 74px;
+  font-size: var(--font-size-21xl);
+  -webkit-text-stroke: 1px #dac9c9;
+  color: var(--color-lightgray-100);
+}
 .about6,
+.anjana6,
 .contact9,
 .home6,
 .pratham4,
@@ -30,6 +38,7 @@
   top: 42px;
   left: 59px;
   font-size: var(--font-size-21xl);
+  display: none;
   -webkit-text-stroke: 1px #dac9c9;
   color: var(--color-lightgray-100);
 }
@@ -63,43 +72,52 @@
   left: 93px;
   width: 111px;
 }
-.icon3,
-.pngtree-instagram-icon-instagr5 {
+.icon5,
+.pngtree-instagram-icon-instagr6 {
   position: absolute;
-  top: 0;
+  top: 3px;
   left: 0;
   width: 68.5px;
   height: 61px;
   object-fit: cover;
   mix-blend-mode: luminosity;
 }
-.icon3 {
-  top: 5.7px;
-  left: 126.5px;
+.icon5 {
+  top: 3287.7px;
+  left: 623.5px;
   width: 58.8px;
   height: 50.2px;
+  display: none;
 }
-.linkedin-logo-png-1-icon3,
-.twitter-logo-vector-png-clipar-icon3 {
+.mdigithub-icon5 {
   position: absolute;
   top: 0;
+  left: 122px;
+  width: 68px;
+  height: 68px;
+  overflow: hidden;
+}
+.linkedin-logo-png-1-icon5,
+.twitter-logo-vector-png-clipar-icon5 {
+  position: absolute;
+  top: 3px;
   left: 243.2px;
   width: 68.5px;
   height: 61px;
   object-fit: cover;
   mix-blend-mode: luminosity;
 }
-.linkedin-logo-png-1-icon3 {
+.linkedin-logo-png-1-icon5 {
   left: 359.2px;
   width: 264.8px;
 }
-.footer-socials4,
+.footer-socials6,
 .footer3 {
   position: absolute;
-  top: 138px;
+  top: 135px;
   left: 497px;
   width: 624px;
-  height: 61px;
+  height: 68px;
 }
 .footer3 {
   top: 3144px;
@@ -116,16 +134,18 @@
   width: 26.7px;
   height: 205.3px;
 }
-.under-graduate {
-  margin: 0;
-  font-size: var(--font-size-21xl);
+.webflow-101-certification1 {
   font-weight: 800;
 }
-.be-in-computer {
+.oct,
+.webflow-101-certification {
   margin: 0;
+}
+.oct {
+  font-size: var(--font-size-13xl);
   font-weight: 500;
 }
-.under-graduate-be-container {
+.webflow-101-certification-container {
   position: absolute;
   top: 0;
   left: 28px;
@@ -133,72 +153,106 @@
   display: inline-block;
   width: 919px;
 }
-.qual-field {
+.qual-field,
+.qual-field-item {
   position: absolute;
   top: 110px;
-  left: 86px;
+  left: 84px;
   width: 947px;
   height: 192px;
 }
-.qual-field-item,
-.qual-field1 {
-  position: absolute;
+.qual-field-item {
   top: 0;
   left: -13.3px;
   width: 26.7px;
   height: 230.3px;
 }
+.figma-essential-training {
+  margin: 0;
+  font-weight: 800;
+}
 .qual-field1 {
+  position: absolute;
   top: 368px;
-  left: 86px;
+  left: 84px;
   width: 947px;
   height: 217px;
 }
-.qual-field-inner,
-.qual-field2 {
+.qual-field-inner {
   position: absolute;
   top: 0;
   left: -13.3px;
   width: 26.7px;
   height: 161.3px;
 }
+.blank-line5 {
+  font-weight: 500;
+}
+.blank-line4 {
+  margin: 0;
+  font-size: var(--font-size-13xl);
+}
 .qual-field2 {
+  position: absolute;
+  top: 651px;
+  left: 84px;
+  width: 947px;
+  height: 148px;
+}
+.licenses-certifications {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 110%;
+  font-weight: 800;
+  color: var(--color-mediumturquoise);
+  text-align: center;
+}
+.certificates {
+  position: absolute;
+  top: 1826px;
+  left: 152px;
+  width: 1031px;
+  height: 799px;
+  text-align: left;
+}
+.web-designer {
+  margin: 0;
+  font-size: var(--font-size-21xl);
+  font-weight: 800;
+}
+.crossshore-solutions {
+  margin: 0;
+  font-weight: 500;
+}
+.qual-field3,
+.qual-field4 {
+  position: absolute;
+  top: 110px;
+  left: 86px;
+  width: 947px;
+  height: 192px;
+}
+.qual-field4 {
+  top: 368px;
+  height: 217px;
+}
+.qual-field-child2,
+.qual-field5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 148px;
+  height: 0;
+}
+.qual-field5 {
   top: 651px;
   left: 86px;
   width: 947px;
   height: 148px;
+  display: none;
 }
-.certificates,
-.experience {
-  position: absolute;
-  top: 2251px;
-  left: 150px;
-  width: 1033px;
-  height: 799px;
-  text-align: left;
-}
-.experience {
-  top: 1354px;
-}
-.qual-field6,
-.qual-field7,
-.qual-field8 {
-  position: absolute;
-  top: 113px;
-  left: 92px;
-  width: 947px;
-  height: 192px;
-}
-.qual-field7,
-.qual-field8 {
-  top: 371px;
-  height: 217px;
-}
-.qual-field8 {
-  top: 654px;
-  height: 148px;
-}
-.qualifications {
+.experience1 {
   position: absolute;
   top: 0;
   left: 0;
@@ -208,12 +262,50 @@
   color: var(--color-mediumturquoise);
   text-align: center;
 }
+.experience {
+  position: absolute;
+  top: 1141px;
+  left: 150px;
+  width: 1033px;
+  height: 585px;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+}
+.gls-university-bachelor-container {
+  position: absolute;
+  top: 0;
+  left: 28px;
+  line-height: 110%;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 919px;
+}
+.qual-field6,
+.qual-field7,
+.qual-field8 {
+  position: absolute;
+  top: 113px;
+  left: 92px;
+  width: 947px;
+  height: 201px;
+}
+.qual-field7,
+.qual-field8 {
+  top: 371px;
+  height: 217px;
+}
+.qual-field8 {
+  top: 654px;
+  height: 148px;
+  display: none;
+  font-size: var(--font-size-13xl);
+}
 .quals {
   position: absolute;
   top: 453px;
   left: 144px;
   width: 1039px;
-  height: 802px;
+  height: 588px;
   text-align: left;
 }
 .bout-me {
@@ -225,12 +317,12 @@
   line-height: 110%;
   font-weight: 800;
 }
-.a5,
+.a9,
 .about-me2,
 .hero3 {
   position: absolute;
 }
-.a5 {
+.a9 {
   top: 0;
   left: calc(50% - 291.5px);
   line-height: 110%;
@@ -246,15 +338,15 @@
   color: var(--color-lightgray-300);
 }
 .about7,
+.anjanaa,
 .contact10,
 .home7,
-.pratham5,
 .projects11 {
   position: absolute;
   letter-spacing: 0.01em;
   line-height: 110%;
 }
-.pratham5 {
+.anjanaa {
   top: 0;
   left: 0;
   font-size: var(--font-size-21xl);
@@ -272,31 +364,31 @@
   height: 37px;
 }
 .home7 {
-  left: 615px;
+  left: 677px;
   width: 104px;
   cursor: pointer;
 }
 .about7,
 .contact10,
 .projects11 {
-  left: 739px;
+  left: 801px;
   width: 113px;
 }
 .contact10,
 .projects11 {
-  left: 872px;
+  left: 934px;
   width: 141px;
   cursor: pointer;
 }
 .projects11 {
-  left: 1033px;
+  left: 1095px;
   width: 146px;
 }
 .navbar3 {
   position: absolute;
   top: 79px;
-  left: 139px;
-  width: 1179px;
+  left: 77px;
+  width: 1241px;
   height: 45px;
   font-size: var(--font-size-4xl);
   color: var(--color-lightgray-200);
@@ -308,7 +400,7 @@
   height: 3481px;
   overflow: hidden;
   text-align: center;
-  font-size: var(--font-size-13xl);
+  font-size: var(--font-size-21xl);
   color: var(--color-white);
   font-family: var(--font-outfit);
 }
