@@ -274,11 +274,11 @@
   font-weight: 800;
 }
 .hero2,
-.p,
+.p4,
 .projects8 {
   position: absolute;
 }
-.p {
+.p4 {
   top: 0;
   left: calc(50% - 329px);
   line-height: 110%;
